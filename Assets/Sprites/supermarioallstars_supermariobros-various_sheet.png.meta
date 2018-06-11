@@ -1,0 +1,1798 @@
+fileFormatVersion: 2
+guid: 4ce8f6ed21a91894d833c66796a79c5c
+timeCreated: 1528514417
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: supermarioallstars_supermariobros-various_sheet_0
+    21300002: supermarioallstars_supermariobros-various_sheet_1
+    21300004: supermarioallstars_supermariobros-various_sheet_2
+    21300006: supermarioallstars_supermariobros-various_sheet_3
+    21300008: supermarioallstars_supermariobros-various_sheet_4
+    21300010: supermarioallstars_supermariobros-various_sheet_5
+    21300012: supermarioallstars_supermariobros-various_sheet_6
+    21300014: supermarioallstars_supermariobros-various_sheet_7
+    21300016: supermarioallstars_supermariobros-various_sheet_8
+    21300018: supermarioallstars_supermariobros-various_sheet_9
+    21300020: supermarioallstars_supermariobros-various_sheet_10
+    21300022: supermarioallstars_supermariobros-various_sheet_11
+    21300024: supermarioallstars_supermariobros-various_sheet_12
+    21300026: supermarioallstars_supermariobros-various_sheet_13
+    21300028: supermarioallstars_supermariobros-various_sheet_14
+    21300030: supermarioallstars_supermariobros-various_sheet_15
+    21300032: supermarioallstars_supermariobros-various_sheet_16
+    21300034: supermarioallstars_supermariobros-various_sheet_17
+    21300036: supermarioallstars_supermariobros-various_sheet_18
+    21300038: supermarioallstars_supermariobros-various_sheet_19
+    21300040: supermarioallstars_supermariobros-various_sheet_20
+    21300042: supermarioallstars_supermariobros-various_sheet_21
+    21300044: supermarioallstars_supermariobros-various_sheet_22
+    21300046: supermarioallstars_supermariobros-various_sheet_23
+    21300048: supermarioallstars_supermariobros-various_sheet_24
+    21300050: supermarioallstars_supermariobros-various_sheet_25
+    21300052: supermarioallstars_supermariobros-various_sheet_26
+    21300054: supermarioallstars_supermariobros-various_sheet_27
+    21300056: supermarioallstars_supermariobros-various_sheet_28
+    21300058: supermarioallstars_supermariobros-various_sheet_29
+    21300060: supermarioallstars_supermariobros-various_sheet_30
+    21300062: supermarioallstars_supermariobros-various_sheet_31
+    21300064: supermarioallstars_supermariobros-various_sheet_32
+    21300066: supermarioallstars_supermariobros-various_sheet_33
+    21300068: supermarioallstars_supermariobros-various_sheet_34
+    21300070: supermarioallstars_supermariobros-various_sheet_35
+    21300072: supermarioallstars_supermariobros-various_sheet_36
+    21300074: supermarioallstars_supermariobros-various_sheet_37
+    21300076: supermarioallstars_supermariobros-various_sheet_38
+    21300078: supermarioallstars_supermariobros-various_sheet_39
+    21300080: supermarioallstars_supermariobros-various_sheet_40
+    21300082: supermarioallstars_supermariobros-various_sheet_41
+    21300084: supermarioallstars_supermariobros-various_sheet_42
+    21300086: supermarioallstars_supermariobros-various_sheet_43
+    21300088: supermarioallstars_supermariobros-various_sheet_44
+    21300090: supermarioallstars_supermariobros-various_sheet_45
+    21300092: supermarioallstars_supermariobros-various_sheet_46
+    21300094: supermarioallstars_supermariobros-various_sheet_47
+    21300096: supermarioallstars_supermariobros-various_sheet_48
+    21300098: supermarioallstars_supermariobros-various_sheet_49
+    21300100: supermarioallstars_supermariobros-various_sheet_50
+    21300102: supermarioallstars_supermariobros-various_sheet_51
+    21300104: supermarioallstars_supermariobros-various_sheet_52
+    21300106: supermarioallstars_supermariobros-various_sheet_53
+    21300108: supermarioallstars_supermariobros-various_sheet_54
+    21300110: supermarioallstars_supermariobros-various_sheet_55
+    21300112: supermarioallstars_supermariobros-various_sheet_56
+    21300114: supermarioallstars_supermariobros-various_sheet_57
+    21300116: supermarioallstars_supermariobros-various_sheet_58
+    21300118: supermarioallstars_supermariobros-various_sheet_59
+    21300120: supermarioallstars_supermariobros-various_sheet_60
+    21300122: supermarioallstars_supermariobros-various_sheet_61
+    21300124: supermarioallstars_supermariobros-various_sheet_62
+    21300126: supermarioallstars_supermariobros-various_sheet_63
+    21300128: supermarioallstars_supermariobros-various_sheet_64
+    21300130: supermarioallstars_supermariobros-various_sheet_65
+    21300132: supermarioallstars_supermariobros-various_sheet_66
+    21300134: supermarioallstars_supermariobros-various_sheet_67
+    21300136: supermarioallstars_supermariobros-various_sheet_68
+    21300138: supermarioallstars_supermariobros-various_sheet_69
+    21300140: supermarioallstars_supermariobros-various_sheet_70
+    21300142: supermarioallstars_supermariobros-various_sheet_71
+    21300144: supermarioallstars_supermariobros-various_sheet_72
+    21300146: supermarioallstars_supermariobros-various_sheet_73
+    21300148: supermarioallstars_supermariobros-various_sheet_74
+    21300150: supermarioallstars_supermariobros-various_sheet_75
+    21300152: supermarioallstars_supermariobros-various_sheet_76
+    21300154: supermarioallstars_supermariobros-various_sheet_77
+    21300156: supermarioallstars_supermariobros-various_sheet_78
+    21300158: supermarioallstars_supermariobros-various_sheet_79
+    21300160: supermarioallstars_supermariobros-various_sheet_80
+    21300162: supermarioallstars_supermariobros-various_sheet_81
+    21300164: supermarioallstars_supermariobros-various_sheet_82
+    21300166: supermarioallstars_supermariobros-various_sheet_83
+    21300168: supermarioallstars_supermariobros-various_sheet_84
+    21300170: supermarioallstars_supermariobros-various_sheet_85
+    21300172: supermarioallstars_supermariobros-various_sheet_86
+    21300174: supermarioallstars_supermariobros-various_sheet_87
+    21300176: supermarioallstars_supermariobros-various_sheet_88
+    21300178: supermarioallstars_supermariobros-various_sheet_89
+    21300180: supermarioallstars_supermariobros-various_sheet_90
+    21300182: supermarioallstars_supermariobros-various_sheet_91
+    21300184: supermarioallstars_supermariobros-various_sheet_92
+    21300186: supermarioallstars_supermariobros-various_sheet_93
+    21300188: supermarioallstars_supermariobros-various_sheet_94
+    21300190: supermarioallstars_supermariobros-various_sheet_95
+    21300192: supermarioallstars_supermariobros-various_sheet_96
+    21300194: supermarioallstars_supermariobros-various_sheet_97
+    21300196: supermarioallstars_supermariobros-various_sheet_98
+    21300198: supermarioallstars_supermariobros-various_sheet_99
+    21300200: supermarioallstars_supermariobros-various_sheet_100
+    21300202: supermarioallstars_supermariobros-various_sheet_101
+    21300204: supermarioallstars_supermariobros-various_sheet_102
+    21300206: supermarioallstars_supermariobros-various_sheet_103
+    21300208: supermarioallstars_supermariobros-various_sheet_104
+    21300210: supermarioallstars_supermariobros-various_sheet_105
+    21300212: supermarioallstars_supermariobros-various_sheet_106
+    21300214: supermarioallstars_supermariobros-various_sheet_107
+    21300216: supermarioallstars_supermariobros-various_sheet_108
+    21300218: supermarioallstars_supermariobros-various_sheet_109
+    21300220: supermarioallstars_supermariobros-various_sheet_110
+    21300222: supermarioallstars_supermariobros-various_sheet_111
+    21300224: supermarioallstars_supermariobros-various_sheet_112
+    21300226: supermarioallstars_supermariobros-various_sheet_113
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 411
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 411
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 410
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 410
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 410
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 411
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 410
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 404
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 404
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 407
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 370
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 370
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 370
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 370
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 371
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 370
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 366
+        width: 26
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 368
+        width: 38
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 373
+        width: 24
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 323
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 323
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 324
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 323
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 323
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 325
+        width: 14
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 324
+        width: 14
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 323
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 326
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 327
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 327
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 284
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 284
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 283
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 287
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 285
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 285
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 285
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 287
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 287
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 287
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 287
+        width: 40
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 243
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 243
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 244
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 243
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 243
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 245
+        width: 14
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 244
+        width: 14
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 243
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 246
+        width: 14
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 246
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 246
+        width: 14
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 204
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 204
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 203
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 207
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 205
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 205
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 205
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 203
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 202
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 170
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 170
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 174
+        width: 16
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 167
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 166
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 166
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 167
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 171
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 171
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 171
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 171
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 130
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 130
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 134
+        width: 16
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 127
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 126
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 126
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 127
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 131
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 131
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 131
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 131
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 86
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 90
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 90
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 90
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 90
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 90
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 87
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 87
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 90
+        width: 63
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 98
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 41
+        width: 15
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 70
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 46
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 50
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 51
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 50
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 50
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 50
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 47
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 46
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 46
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 42
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 32
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 11
+        width: 27
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 12
+        width: 24
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 11
+        width: 24
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: supermarioallstars_supermariobros-various_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 14
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
