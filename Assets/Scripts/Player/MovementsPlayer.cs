@@ -10,7 +10,7 @@ public class MovementsPlayer : MonoBehaviour {
 	public float jumpPower = 6.5f;
 	private Rigidbody2D rb2d;
 	private Animator animator;
-	private  bool grounded = true;
+	public bool grounded = true;
 	private bool Jump = false;
 	private bool Down;
 	private bool doubleJump;
@@ -23,9 +23,6 @@ public class MovementsPlayer : MonoBehaviour {
 	public Text txtLifes;
 	public Text txtDiamants;
 	//public Text txtLevel;
-
-
-
 
 	// Use this for initialization
 	void Start () {
@@ -55,6 +52,7 @@ public class MovementsPlayer : MonoBehaviour {
 				doubleJump = false;
 			}
 		}
+
 		if(Input.GetKeyDown(KeyCode.S)){
 			Down = true;
 		}

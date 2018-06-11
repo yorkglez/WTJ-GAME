@@ -19,7 +19,6 @@ public class EnemyController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-
 	void Update(){
 		//animator.SetFloat ("Speed",Mathf.Abs(rb2d.velocity.x));
 		animator.SetBool ("Grounded",grounded);
@@ -27,20 +26,11 @@ public class EnemyController : MonoBehaviour {
 			Destroy (gameObject);
 		}
 	}
+
 	void FixedUpdate () {
 		Vector2 rigiSpeed = rb2d.velocity;
 		rigiSpeed.x = speed * dir;
 		rb2d.velocity = rigiSpeed;
-
-		/*rb2d.AddForce (Vector2.right * speed);
-		float limitedspeed = Mathf.Clamp (rb2d.velocity.x, -maxSpeed, maxSpeed);
-		rb2d.velocity = new Vector2 (limitedspeed, rb2d.velocity.y);
-		if (rb2d.velocity.x > -0.01f && rb2d.velocity.x < 0.01f) {
-			speed = -speed;
-			rb2d.velocity = new Vector2 (speed, rb2d.velocity.y);
-		}*/
-
-	
 	}
 
 	/** Collisions **/
@@ -54,6 +44,8 @@ public class EnemyController : MonoBehaviour {
 			Destroy (col.gameObject);
 		}
 	}
+
+	/** Check orientation of object and change this **/
 	void CheckOrientation(){
 		if (dir == -1) {
 			transform.localScale = new Vector3(-1f,1f,1f);
