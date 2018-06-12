@@ -6,7 +6,7 @@ public class DonaldMovements : MonoBehaviour {
 	/** Variables **/
 	private Animator animator;
 	public float speed = 3f, dir = 1f, maxSpeed = 8f, bulletSpeed, rigiSpeed, jumpPower;
-	public bool grounded = true, jump;
+	public bool grounded = true, jump, isActive = false;
 	public int Life = 4;
 	private Rigidbody2D rb2d, bulletRb;
 	public Transform bulletSpawner;
@@ -15,14 +15,13 @@ public class DonaldMovements : MonoBehaviour {
 	public GameObject Donal;
 
 	void Awake(){
-		
+		//Donal.SetActive (false);
 	} 
 	void Start () {
-		//Donal = GameObject.FindGameObjectWithTag ("Donal");
+		Donal = GameObject.FindGameObjectWithTag ("Donal");
 		playerT = Donal.transform;
 		rb2d = GetComponent<Rigidbody2D> ();
 		animator = GetComponent<Animator> ();
-		Donal.SetActive (false);
 		CheckOrientation ();
 		InvokeRepeating("Shooting",0f,1.2f);
 		InvokeRepeating ("Jump", 1f, 3f);
@@ -39,7 +38,6 @@ public class DonaldMovements : MonoBehaviour {
 
 	//
 	void FixedUpdate () {
-		if (Donal) 
 			Move ();	
 	}
 
@@ -60,14 +58,13 @@ public class DonaldMovements : MonoBehaviour {
 
 	/** Jump One time**/
 	void Jump(){
-		if (Donal) {
 			jump = true;
 			if (jump) {
 				rb2d.velocity = new Vector2 (rb2d.velocity.x, 0);
 				rb2d.AddForce (Vector2.up * jumpPower,ForceMode2D.Impulse);
 				jump = false;
 			}
-		}
+
 	}
 
 	/** Check Direction and Change orientation**/
@@ -81,7 +78,7 @@ public class DonaldMovements : MonoBehaviour {
 	}
 
 	void Shooting(){
-		if (Donal) {
+
 			GameObject bullet = Instantiate (bulletPref, bulletSpawner.position, bulletSpawner.rotation);
 			bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (bulletSpeed, 3);
 			if (playerT.localScale.x > 0) {
@@ -94,5 +91,5 @@ public class DonaldMovements : MonoBehaviour {
 			}
 			Destroy (bullet, 1.5f);
 		}
-	}
+
 }

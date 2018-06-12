@@ -748,6 +748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 724654992}
   - component: {fileID: 724654991}
+  - component: {fileID: 724654993}
   m_Layer: 0
   m_Name: Active Donal
   m_TagString: Untagged
@@ -771,7 +772,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.5, y: 0}
-  - {x: -0.5442047, y: 3.1326098}
+  - {x: 2.3072815, y: -0.007060051}
 --- !u!4 &724654992
 Transform:
   m_ObjectHideFlags: 0
@@ -785,6 +786,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &724654993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 724654990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b17663a63594b1542acd60fb2f3f53c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &768826519
 Prefab:
   m_ObjectHideFlags: 0
@@ -1055,6 +1067,7 @@ MonoBehaviour:
   jumpPower: 6
   grounded: 1
   jump: 0
+  isActive: 0
   Life: 2
   bulletSpawner: {fileID: 1081286879}
   bulletPref: {fileID: 1841274582372734, guid: 846a6f7e8f51b424ab1bc1919da52bf3, type: 2}
@@ -1763,7 +1776,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4667572373118784, guid: cb7003f88835c794c8d420257abf9178, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 36.81
+      value: 32.33
       objectReference: {fileID: 0}
     - target: {fileID: 4667572373118784, guid: cb7003f88835c794c8d420257abf9178, type: 2}
       propertyPath: m_LocalPosition.y
