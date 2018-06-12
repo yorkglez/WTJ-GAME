@@ -1590,7 +1590,6 @@ MonoBehaviour:
   bulletSpawner: {fileID: 379356307}
   bulletPref: {fileID: 1534457684700320, guid: 8564bca130d52a74e99d80f2f18db6dd, type: 2}
   player: {fileID: 610318997}
-  key: 0
 --- !u!1001 &623065343
 Prefab:
   m_ObjectHideFlags: 0
@@ -3651,7 +3650,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4667572373118784, guid: cb7003f88835c794c8d420257abf9178, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.45
+      value: 29.49
       objectReference: {fileID: 0}
     - target: {fileID: 4667572373118784, guid: cb7003f88835c794c8d420257abf9178, type: 2}
       propertyPath: m_LocalPosition.y

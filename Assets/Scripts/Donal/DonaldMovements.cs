@@ -12,15 +12,17 @@ public class DonaldMovements : MonoBehaviour {
 	public Transform bulletSpawner;
 	private Transform playerT;
 	public GameObject bulletPref;
-	public GameObject player;
+	public GameObject Donal;
 
 	void Awake(){
-		player = GameObject.FindGameObjectWithTag ("Donal");
-		playerT = player.transform;
-	}
+		
+	} 
 	void Start () {
+		//Donal = GameObject.FindGameObjectWithTag ("Donal");
+		playerT = Donal.transform;
 		rb2d = GetComponent<Rigidbody2D> ();
 		animator = GetComponent<Animator> ();
+		Donal.SetActive (false);
 		CheckOrientation ();
 		InvokeRepeating("Shooting",0f,1.2f);
 		InvokeRepeating ("Jump", 1f, 3f);
@@ -37,8 +39,8 @@ public class DonaldMovements : MonoBehaviour {
 
 	//
 	void FixedUpdate () {
-		Move ();
-
+		if (Donal) 
+			Move ();	
 	}
 
 	/** Collisions **/
@@ -58,11 +60,13 @@ public class DonaldMovements : MonoBehaviour {
 
 	/** Jump One time**/
 	void Jump(){
-		jump = true;
-		if (jump) {
-			rb2d.velocity = new Vector2 (rb2d.velocity.x, 0);
-			rb2d.AddForce (Vector2.up * jumpPower,ForceMode2D.Impulse);
-			jump = false;
+		if (Donal) {
+			jump = true;
+			if (jump) {
+				rb2d.velocity = new Vector2 (rb2d.velocity.x, 0);
+				rb2d.AddForce (Vector2.up * jumpPower,ForceMode2D.Impulse);
+				jump = false;
+			}
 		}
 	}
 
@@ -77,16 +81,18 @@ public class DonaldMovements : MonoBehaviour {
 	}
 
 	void Shooting(){
-		GameObject bullet = Instantiate (bulletPref, bulletSpawner.position, bulletSpawner.rotation);
-		bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (bulletSpeed, 3);
-		if (playerT.localScale.x > 0) {
+		if (Donal) {
+			GameObject bullet = Instantiate (bulletPref, bulletSpawner.position, bulletSpawner.rotation);
 			bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (bulletSpeed, 3);
-			transform.localScale = new Vector3 (1f, 1f, 1f);
-		} 
-		else{
-			bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (-bulletSpeed, 3);
-			transform.localScale = new Vector3 (-1f, 1f, 1f);
+			if (playerT.localScale.x > 0) {
+				bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (bulletSpeed, 3);
+				transform.localScale = new Vector3 (1f, 1f, 1f);
+			} 
+			else{
+				bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (-bulletSpeed, 3);
+				transform.localScale = new Vector3 (-1f, 1f, 1f);
+			}
+			Destroy (bullet, 1.5f);
 		}
-		Destroy (bullet, 1.5f);
 	}
 }
