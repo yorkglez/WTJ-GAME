@@ -39,12 +39,13 @@ public class EnemyController : MonoBehaviour {
 			dir = -dir;
 			CheckOrientation ();
 		}
+	}
+	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.tag == "Bullet") {
 			Life = Life - 1;
 			Destroy (col.gameObject);
 		}
 	}
-
 	/** Check orientation of object and change this **/
 	void CheckOrientation(){
 		if (dir == -1) {

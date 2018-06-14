@@ -8,6 +8,8 @@ public class DiamantCollisions : MonoBehaviour {
 			GameObject thePlayer = GameObject.Find("Player");
 			MovementsPlayer Player = thePlayer.GetComponent<MovementsPlayer> ();
 			Player.diamantCount = Player.diamantCount + 1;
+			SoundsManager.PlaySound ("coin");
+
 			Destroy (gameObject);
 		}
 	}

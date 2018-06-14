@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class MovementsPlayer : MonoBehaviour {
 
 	/** Variables **/
@@ -17,12 +18,12 @@ public class MovementsPlayer : MonoBehaviour {
 	public bool key = false;
 	public int Lifes = 3;
 	public int diamantCount = 0;
-	private int Nlevel = 0;
+	private int Nlevel;
 	private int dir;
 	//private bool junaMode = false;
 	public Text txtLifes;
 	public Text txtDiamants;
-	//public Text txtLevel;
+	public Text txtLevel;
 
 	// Use this for initialization
 	void Start () {
@@ -30,13 +31,12 @@ public class MovementsPlayer : MonoBehaviour {
 		animator = GetComponent<Animator> ();
 		txtLifes.text = Lifes.ToString();
 		txtDiamants.text = diamantCount.ToString();
-		//txtLevel.text = txtLevel.text +" "+ Nlevel.ToString ();*/
-
+		Nlevel = SceneManager.sceneCount;
+		txtLevel.text = txtLevel.text +" "+ Nlevel.ToString ();
+	
 	}
-
-
-	void Update(){
 		
+	void Update(){
 		/**Animations Values **/
 		animator.SetFloat ("Speed",Mathf.Abs(rb2d.velocity.x));
 		animator.SetBool ("Grounded", grounded); 
@@ -59,12 +59,9 @@ public class MovementsPlayer : MonoBehaviour {
 		if (Input.GetKeyUp (KeyCode.S)) {
 			Down = false;
 		}
-
-		//GameOver ();
-
+		GameOver ();
 		txtDiamants.text = diamantCount.ToString();
 		txtLifes.text = Lifes.ToString();
-
 	}
 	// Update is called once per frame
 
@@ -80,22 +77,19 @@ public class MovementsPlayer : MonoBehaviour {
 		rb2d.AddForce (Vector2.right * speed * h);
 		float limitedSpeed = Mathf.Clamp (rb2d.velocity.x, -maxSpeed, maxSpeed);
 		rb2d.velocity = new Vector2 (limitedSpeed, rb2d.velocity.y);
-	//	GameObject background = GameObject.Find("Background");
-		//Scroll Back = background.GetComponent<Scroll> ();
 		if (h > 0.1f) {
 			transform.localScale = new Vector3 (1f,1f,1f);
 			dir = 1;
-		//	Back.MoveBackground (dir);
 
 		}
 		if (h < -0.1f) {
 			transform.localScale = new Vector3 (-1f,1f,1f);
 			dir = -1;
-		//	Back.MoveBackground (dir);
 		}
 
 		/*--Jump*/
 		if (Jump) {
+			SoundsManager.PlaySound ("jumpPlayer");
 			rb2d.velocity = new Vector2 (rb2d.velocity.x, 0);
 			rb2d.AddForce (Vector2.up * jumpPower,ForceMode2D.Impulse);
 			Jump = false;
@@ -149,8 +143,7 @@ public class MovementsPlayer : MonoBehaviour {
 
 	/** Check numbers of lives for stop game **/
 	void GameOver(){
-		if (Lifes == 0) {
-			Destroy (gameObject);
-		}
+		if (Lifes == 0) 
+			SceneController.LoadScene ("GameOver");
 	}
 }

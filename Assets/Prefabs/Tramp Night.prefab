@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212474320411840566}
   - component: {fileID: 61822466139166902}
   - component: {fileID: 68472072867511194}
+  - component: {fileID: 114531927398927642}
   m_Layer: 0
   m_Name: Tramp Night
   m_TagString: Untagged
@@ -76,7 +77,7 @@ EdgeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -91,6 +92,17 @@ EdgeCollider2D:
   - {x: 0.18859673, y: -0.088516474}
   - {x: 0.31550026, y: 0.25612783}
   - {x: 0.46821594, y: -0.122348785}
+--- !u!114 &114531927398927642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1604223318138766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f78e2de97e2a3554dab15cd63ce8ddcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212474320411840566
 SpriteRenderer:
   m_ObjectHideFlags: 1

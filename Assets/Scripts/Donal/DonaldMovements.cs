@@ -13,10 +13,6 @@ public class DonaldMovements : MonoBehaviour {
 	private Transform playerT;
 	public GameObject bulletPref;
 	public GameObject Donal;
-
-	void Awake(){
-		//Donal.SetActive (false);
-	} 
 	void Start () {
 		Donal = GameObject.FindGameObjectWithTag ("Donal");
 		playerT = Donal.transform;
@@ -32,7 +28,8 @@ public class DonaldMovements : MonoBehaviour {
 		animator.SetFloat ("Speed",Mathf.Abs(rb2d.velocity.x));
 		animator.SetBool ("Grounded",grounded);
 		if (Life == 0) {
-		//	Destroy (gameObject);
+			Destroy (gameObject);
+
 		}
 	}
 
@@ -47,6 +44,12 @@ public class DonaldMovements : MonoBehaviour {
 			dir = -dir;
 			CheckOrientation ();
 		}
+		if (col.gameObject.tag == "Player") {
+			GameObject thePlayer = GameObject.Find("Player");
+			MovementsPlayer Player = thePlayer.GetComponent<MovementsPlayer> ();
+			Player.Lifes = Player.Lifes - 1;
+			Player.OutCollision (5);
+		}
 	}
 
 	/**Move Object**/
@@ -58,12 +61,13 @@ public class DonaldMovements : MonoBehaviour {
 
 	/** Jump One time**/
 	void Jump(){
-			jump = true;
-			if (jump) {
-				rb2d.velocity = new Vector2 (rb2d.velocity.x, 0);
-				rb2d.AddForce (Vector2.up * jumpPower,ForceMode2D.Impulse);
-				jump = false;
-			}
+		jump = true;
+		if (jump) {
+			rb2d.velocity = new Vector2 (rb2d.velocity.x, 0);
+			rb2d.AddForce (Vector2.up * jumpPower,ForceMode2D.Impulse);
+			SoundsManager.PlaySound ("donalJump");
+			jump = false;
+		}
 
 	}
 
@@ -78,18 +82,22 @@ public class DonaldMovements : MonoBehaviour {
 	}
 
 	void Shooting(){
-
-			GameObject bullet = Instantiate (bulletPref, bulletSpawner.position, bulletSpawner.rotation);
+		GameObject bullet = Instantiate (bulletPref, bulletSpawner.position, bulletSpawner.rotation);
+		bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (bulletSpeed, 3);
+		if (playerT.localScale.x > 0) {
 			bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (bulletSpeed, 3);
-			if (playerT.localScale.x > 0) {
-				bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (bulletSpeed, 3);
-				transform.localScale = new Vector3 (1f, 1f, 1f);
-			} 
-			else{
-				bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (-bulletSpeed, 3);
-				transform.localScale = new Vector3 (-1f, 1f, 1f);
-			}
-			Destroy (bullet, 1.5f);
+			transform.localScale = new Vector3 (-1f, 1f, 1f);
+			bullet.transform.localScale = new Vector3  (-1f, 1f, 1f);
+		} 
+		else{
+			bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (-bulletSpeed, 3);
+			transform.localScale = new Vector3 (1f, 1f, 1f);
 		}
-
+		SoundsManager.PlaySound ("donalFire");
+		Destroy (bullet, 1.5f);
+		}
+	void OnTriggerEnter2D(Collider2D col){
+		if (col.gameObject.tag == "Bullet")
+			Destroy (col.gameObject);
+	}
 }

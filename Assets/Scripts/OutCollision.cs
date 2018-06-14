@@ -9,6 +9,7 @@ public class OutCollision : MonoBehaviour {
 			GameObject thePlayer = GameObject.Find("Player");
 			MovementsPlayer Player = thePlayer.GetComponent<MovementsPlayer> ();
 			Player.OutCollision (Power);
+			SoundsManager.PlaySound ("playerDying");
 			Player.Lifes = Player.Lifes - 1;
 		}
 	}

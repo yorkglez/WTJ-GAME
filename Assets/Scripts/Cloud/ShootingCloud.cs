@@ -37,7 +37,7 @@ public class ShootingCloud : MonoBehaviour {
 			bullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (-bulletSpeed, 3);
 			transform.localScale = new Vector3 (-1f, 1f, 1f);
 		}
+		SoundsManager.PlaySound ("donalFire");
 		Destroy (bullet, 1.5f);
 	}
-
 }
