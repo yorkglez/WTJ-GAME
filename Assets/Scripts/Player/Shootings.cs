@@ -57,6 +57,7 @@ public class Shootings : MonoBehaviour {
 		if(Input.GetKeyUp(KeyCode.F)){
 			Fire = false;
 			SoundsManager.PlaySound ("firePlayer");
+			//WinnerController.ActiveWin (true);
 		}
 	}
 

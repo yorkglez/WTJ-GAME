@@ -12,6 +12,7 @@ TagManager:
   - Cloud
   - Background
   - Donal
+  - CanvasWiner
   layers:
   - Default
   - TransparentFX

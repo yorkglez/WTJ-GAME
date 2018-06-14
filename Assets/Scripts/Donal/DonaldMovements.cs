@@ -21,6 +21,7 @@ public class DonaldMovements : MonoBehaviour {
 		CheckOrientation ();
 		InvokeRepeating("Shooting",0f,1.2f);
 		InvokeRepeating ("Jump", 1f, 3f);
+		WinnerController.ActiveWin (false);
 	}
 
 	// Update is called once per frame

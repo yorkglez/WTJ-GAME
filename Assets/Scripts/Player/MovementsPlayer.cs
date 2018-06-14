@@ -112,7 +112,8 @@ public class MovementsPlayer : MonoBehaviour {
 		}
 	}
 	void OnBecameInvisible(){
-		transform.position = new Vector3 (0, 0, 0);
+		SceneController.LoadScene ("GameOver");
+	//	transform.position = new Vector3 (0, 0, 0);
 	}
 
 	void OnCollisionEnter2D(Collision2D  col){
